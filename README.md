@@ -1,1 +1,1 @@
-# web-client
+# web app for Interview-GPT
