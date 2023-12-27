@@ -1,7 +1,7 @@
 "use client"
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import Image from 'next/image'
-import HappyCoco from '../../..//assets/images/happy-coco.8907ee78.webp'
+import HappyCoco from '../../../assets/images/happy-coco.8907ee78.webp'
 import DeterminedCoco from '../../../assets/images/determined-coco.5399a2c0.webp'
 
 export const NavHome = () =>{

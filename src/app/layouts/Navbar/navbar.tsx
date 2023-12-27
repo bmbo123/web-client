@@ -1,4 +1,3 @@
-import React from 'react'
 import { NavHome } from './components/navhome'
 import { NavLogin } from './components/navlogin'
 
@@ -12,5 +11,5 @@ export default function Navbar() {
         </ul>
       </div>
     </nav>
-  );
+  )
 }

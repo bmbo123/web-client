@@ -4,7 +4,7 @@ import Navbar from './layouts/Navbar/navbar'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
+    <main className="default-background flex min-h-screen flex-col items-center justify-between">
       <Navbar/>
 
       <div className="relative flex flex-col items-center sm:flex-row">
@@ -21,17 +21,12 @@ export default function Home() {
   </div>
   <div className="text-container mt-4 sm:mt-0 sm:ml-4 text-center">
     <p className="text-2xl">A Better Way to Prepare</p>
-    <p className="mt-2 text-lg text-gray-600">The most efficient way to prepare for interviews</p>
+    <p className="mt-2 text-lg text-gray-600">The most efficient way to prepare for technical interviews</p>
     <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded transition duration-500 ease-in-out hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue active:bg-blue-800">
       Get Started
     </button>
   </div>
 </div>
-
-
-<div className="after:absolute after:-z-20 after:h-[30%] after:w-[30%] after:translate-x-1/6 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40"></div>
-
-
 
 
 
